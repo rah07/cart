@@ -1,18 +1,18 @@
 import React from "react"
-
-import Cartitem from './Cartitem'
+import Cart from "./cart";
 
 function App() {
-    return ( <
-        div className = "App" >
-
-
-        <
-        Cartitem / >
-        <
-        /
-        div >
-    );
+  return (
+    <div className="App">
+      <Cart />
+    </div>
+  );
 }
+
+
+
+
+
+
 
 export default App;
